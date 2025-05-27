@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escuela de Danza Folclórica</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #8b0000;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://example.com/imagen-folclor.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .content {
+    padding: 2rem;
+    text-align: center;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      color: #8b0000;
+    }
+    footer {
+      background-color: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1><marquee behavior="scroll" direction="left">
+      <a href="index.html">¡¡¡INCRIBETE Y DIVIERTETE!!!</a>
+    </marquee>
+    </h1>
+    <p>Celebrando nuestras raíces a través del baile</p>
+</header>
+<nav>VIVE ESTA NUIEVA EXPERIENCIA EN NUESTRA ESCUELA </nav>
+<div class="content">
+  <table width="200" border="1" align="center">
+    <tbody>
+      <tr>
+        <td><table width="739" height="628" border="1" align="center">
+          <tbody>
+            <tr>
+              <td colspan="3" style="text-align: center; font-size: 36px; font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace;">SOLICITUD DE EMPLEO </td>
+            </tr>
+            <tr>
+              <td width="190" style="text-align: center">&nbsp;</td>
+              <td width="217" style="text-align: center">INGRESA TU FOTO</td>
+              <td width="287" style="text-align: center"><label for="fileField3">:</label>
+                <input type="file" name="fileField2" id="fileField3"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center">NOMBRE</td>
+              <td style="text-align: center">APELLIDO PATERNO</td>
+              <td style="text-align: center">APELLDIO MATERNO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><label for="NOMBRE">:</label>
+                <input type="text" name="NOMBRE" id="NOMBRE"></td>
+              <td style="text-align: center"><label for="APELL PATERNO">:</label>
+                <input type="text" name="APELL PATERNO" id="APELL PATERNO"></td>
+              <td style="text-align: center"><label for="APELL MATERNO">:</label>
+                <input type="text" name="APELL MATERNO" id="APELL MATERNO"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center">EDAD</td>
+              <td style="text-align: center">TELEFONO</td>
+              <td style="text-align: center">VIEVE CON:</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><label for="EDAD">:</label>
+                <input type="number" name="EDAD" id="EDAD"></td>
+              <td style="text-align: center"><label for="TELEFONO">Tel:</label>
+                <input type="tel" name="TELEFONO" id="TELEFONO"></td>
+              <td style="text-align: center"><p>
+                <label>
+                  <input type="radio" name="VIVE CON" value="opción" id="VIVECON_0">
+                  SUS PADRES</label>
+                <br>
+                <label>
+                  <input type="radio" name="VIVE CON" value="opción" id="VIVECON_1">
+                  FAMILIARES</label>
+                <br>
+                <label>
+                  <input type="radio" name="VIVE CON" value="opción" id="VIVECON_2">
+                  PARIENTES</label>
+                <br>
+                <label>
+                  <input type="radio" name="VIVE CON" value="opción" id="VIVECON_3">
+                  AMIGOS</label>
+                <br>
+                <label>
+                  <input type="radio" name="VIVE CON" value="opción" id="VIVECON_4">
+                  SOLOS</label>
+                <br>
+              </p></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="text-align: center">&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">DOMICILIO</td>
+              <td style="text-align: center">MES DE NACIMIENTO</td>
+              <td style="text-align: center">AÑO DE NACIMIENTO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><label for="textarea">:</label>
+                <textarea name="textarea" id="textarea"></textarea></td>
+              <td style="text-align: center"><label for="month">:</label>
+                <input type="month" name="month" id="month"></td>
+              <td style="text-align: center"><label for="number">:</label>
+                <input type="number" name="number" id="number"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center">HORARIO DE ENTRADA</td>
+              <td style="text-align: center">HORARIO DE SALIDA</td>
+              <td rowspan="2" style="text-align: center">&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><label for="time">:</label>
+                <input type="time" name="time" id="time"></td>
+              <td style="text-align: center"><label for="time2">:</label>
+                <input type="time" name="time2" id="time2"></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="text-align: center">&nbsp;</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">PADECE ALGUNA ENFERMEDAD</td>
+              <td style="text-align: center">MOTIVACION</td>
+              <td style="text-align: center">NUMERO DE PASAPORTE </td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><p>
+                <label>
+                  <input type="radio" name="ENFERMEDADES" value="opción" id="ENFERMEDADES_0">
+                  SI</label>
+                <br>
+                <label>
+                  <input type="radio" name="ENFERMEDADES" value="opción" id="ENFERMEDADES_1">
+                  NO</label>
+                <br>
+              </p></td>
+              <td style="text-align: center"><label for="range">:</label>
+                <input type="range" name="range" id="range"></td>
+              <td style="text-align: center"><label for="number2">:</label>
+                <input type="number" name="number2" id="number2"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center">CORREO ELECTRONICO</td>
+              <td style="text-align: center">HOBBIES</td>
+              <td style="text-align: center"> SUELDO DESEADO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><label for="email">Email:</label>
+                <input type="email" name="email" id="email"></td>
+              <td style="text-align: center"><p>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                ESCUCHAR MUSICA </p>
+                <p>
+                  <input type="checkbox" name="checkbox2" id="checkbox2">
+                  VER PELICULAS </p>
+                <p>
+                  <input type="checkbox" name="checkbox3" id="checkbox3">
+                  IR AL GYM </p>
+                <p>
+                  <input type="checkbox" name="checkbox4" id="checkbox4">
+                  SALIR A CORRER </p>
+                <p>
+                  <input type="checkbox" name="checkbox5" id="checkbox5">
+                  LEER </p></td>
+              <td style="text-align: center"><label for="number3">:</label>
+                <input type="number" name="number3" id="number3"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center">ESCOLARIDAD</td>
+              <td style="text-align: center">GENERA UNA CONTASEÑA PARA TU CUENTA</td>
+              <td style="text-align: center">COLOR FAVORITO</td>
+            </tr>
+            <tr>
+              <td style="text-align: center"><p>
+                <label>
+                  <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+                  NO ESTUDIE</label>
+                <br>
+                <label>
+                  <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+                  PRIMARIA</label>
+                <br>
+                <label>
+                  <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_2">
+                  SECUNDARIA</label>
+                <br>
+                <label>
+                  <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_3">
+                  PREPARATORIA</label>
+                <br>
+                <label>
+                  <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_4">
+                  UNIVERSIDAD</label>
+                <br>
+                <br>
+              </p></td>
+              <td style="text-align: center"><label for="CONTRASEÑA">:</label>
+                <input type="password" name="CONTRASEÑA" id="CONTRASEÑA"></td>
+              <td style="text-align: center"><label for="color">:</label>
+                <input type="color" name="color" id="color"></td>
+            </tr>
+            <tr>
+              <td colspan="3" style="text-align: center">QUE PUESTO TE INTERESARIA
+                <label for="textfield">:</label>
+                <input type="text" name="textfield" id="textfield">
+                <input type="submit" name="ENVIAR " id="ENVIAR " value="Enviar"></td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+</div>
+  <footer>
+    <p><a href="index.html">ESCUELA DE DANZA FOLKLORICA </a></p>
+  </footer>
+</body>
+</html>
